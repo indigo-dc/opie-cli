@@ -15,12 +15,10 @@
 
 from opie_cli.osc.v1 import plugin
 
-from openstackclient.tests.unit import utils
 from openstackclient.compute.v2 import server
 from openstackclient.tests.unit.compute.v2 import fakes as compute_fakes
 from openstackclient.tests.unit.compute.v2 import test_server
 from openstackclient.tests.unit.image.v2 import fakes as image_fakes
-from openstackclient.tests.unit import utils
 
 
 class TestServerCreate(test_server.TestServer):
